@@ -22,4 +22,4 @@ Criar uma calculadora padrão atendendo as seguintes premissas:
 
 * *React.js*
 
-Para este projeto, foi utilizado o framework React.js para a criação da interface, com componentes funcionais construidos em JSX. As estilizações foram feitas em CSS3
+Para este projeto, foi utilizada a biblioteca React.js para a criação da interface com componentes construidos em JSX. As estilizações foram feitas em CSS3
