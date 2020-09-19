@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles.css'
+import Calculadora from './components/Calculadora'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <React.Fragment>
+      <div id="contend">
+        <h1 className='title'>React.js Calc</h1>
+        <Calculadora/>
+      </div>
+      <footer>
+        <a href='http://github.com/fdias1/react-calc' target='blank'>
+          GitHub Page
         </a>
-      </header>
-    </div>
+      </footer>
+    </React.Fragment>
   );
 }
-
 export default App;

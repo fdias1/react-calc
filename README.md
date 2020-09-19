@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Calc
 
-## Available Scripts
+> ## Resumo
+*React Calc* é uma calculadora com interface desenvolvida em react.
 
-In the project directory, you can run:
+> ## Escopo do projeto
+Criar uma calculadora padrão atendendo as seguintes premissas:
+-   [x] O usuário verá atráves de um display o número que foi inserido, ou o resultado da última operação.
+-   [x] O Usuário será apresentado a uma interface com botoes que representem os números (0-9), um botão para input de números decimais ('.'), botões que representem as quatro operações básicas ('+', '-', '*' e '/'), um botão de limpar a memória ('CE'), um botão dedicado para troca de sinal do valor de input (+/-), um botão de backspace para correções e um botão para processamento ('=').
+-   [x] Qualquer input com até 8 algarismos será aceito (não contando '-' ou '.' como algarismos), após preenchidos os 8 algarismos, qualquer entrada adicional deve ser ignorada.
+-   [x] Ao clicar no botão de uma das 4 operações, a calculadora deve exibir no display padrão:
+    * O resultado da operação solicitada, utilizando o último resultado e o último número informado
+    * O resultado da operação solicitada, utilizando os dois últimos números informados
+    * O último número informado
+-   [x] Ao clicar no botão 'CE', a memória deve ser apagada.
+-   [x] Ao clicar no botão 'backspace' o último dígito adicionado deve ser apagado.
+-   [x] Em caso de uma operação resultar em um número que extrapole o limite de 8 algarismos numéricos, deve ser exibida uma mensagem de erro ('err'), e a memória deve ser apagada.
+-   [x] As operações com números decimais devem resultar em número de até 3 casas decimais, sempre respeitando a significância, e não exibindo algarismos não-significantes.
+-   [x] A página deve ser responsiva, e funcionar bem em todas as proporções de tela, e em ambas as orientações.
 
-### `npm start`
+> ## Ferramentas utilizadas
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* *React.js*
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Para este projeto, foi utilizado o framework React.js para a criação da interface, com componentes funcionais construidos em JSX. As estilizações foram feitas em CSS3
