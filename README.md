@@ -3,6 +3,8 @@
 > ## Resumo
 *React Calc* é uma calculadora com interface desenvolvida em react.
 
+### [Visite a página](https://fdias1.github.io/react-calc)
+
 > ## Escopo do projeto
 Criar uma calculadora padrão atendendo as seguintes premissas:
 -   [x] O usuário verá atráves de um display o número que foi inserido, ou o resultado da última operação.
